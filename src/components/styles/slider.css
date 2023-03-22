@@ -1,0 +1,25 @@
+.slider-icons{
+    width: 45px;
+    height: 45px;
+}
+
+.swiper-class{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .slider-icons{
+        width: 42px;
+        height: 42px;
+    }
+    .swiper-class{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .swiper-class{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
