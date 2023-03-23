@@ -5,7 +5,7 @@ import featureIcon3 from "./assets/feature-image-3.svg"
 import bookAnimation from "./assets/Book_Animation.gif"
 import Slider from "./slider"
 
-const Body = () => {
+const Main = () => {
     return (
         <>
             <div className="body-container">
@@ -31,7 +31,8 @@ const Body = () => {
                     <div>
                         <button id="get-started-btn">Get Sterted for Free</button>
                     </div>
-                    <div>
+                    <div></div>
+                    <div class="body-slider-block">
                         <p id="sell-at-txt"><span>Sell</span>&nbsp;<span>At</span></p>
                         <Slider />
                     </div>
@@ -44,4 +45,4 @@ const Body = () => {
     )
 }
 
-export default Body;
+export default Main;
