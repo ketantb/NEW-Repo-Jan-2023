@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 const Header = () => {
     return (
         <>
-            <navbar className="header-nav">
+            <nav className="header-nav">
                 <div className="header-left-col">
                     <img src="https://thepencilapp.com/images/logo_black.svg" alt="pencil-logo" />
                 </div>
@@ -62,7 +62,7 @@ const Header = () => {
                 <div id="nav-hamburger">
                     <RxHamburgerMenu />
                 </div>
-            </navbar>
+            </nav>
         </>
     )
 }

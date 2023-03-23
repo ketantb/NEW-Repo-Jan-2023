@@ -6,15 +6,20 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden; */
 }
 
 .header-nav{
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     /* justify-content: space-around; */
     padding-left: 3rem;
     padding-right: 3rem;
-    height: 75px;
+    height: 80px;
     width: 100%;
     box-shadow: 0px 1px 5px 3px #c8c8ce;
     /* text-align: center; */
@@ -65,7 +70,8 @@ body{
     font-size: small;
     padding: 7px 7px;
     border-radius: 5px;
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
     opacity: 0;
     z-index: 1;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -88,7 +94,8 @@ body{
 }
 
 .header-center-col>ul>li:hover .inner-ul{
-    visibility: visible;
+    /* visibility: visible; */
+    display: block;
     opacity: 1;
 }
 
