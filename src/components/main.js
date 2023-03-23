@@ -1,4 +1,4 @@
-import "./styles/body.css"
+import "./styles/main.css"
 import featureIcon1 from "./assets/feature-image-1.svg"
 import featureIcon2 from "./assets/feature-image-2.svg"
 import featureIcon3 from "./assets/feature-image-3.svg"
